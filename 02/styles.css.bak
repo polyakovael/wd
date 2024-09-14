@@ -1,0 +1,18 @@
+p {
+	color: #6A94CC;
+	background-color: rgb(180,180,0);
+}
+h1 {
+	color: #6A94CC;
+	background-color: rgb(180,180,180);
+    text-shadow: 1px 1px 2px black, 0 0 1em #3E9393; /* Параметры тени */
+    color: white; /* Белый цвет текста */
+    font-size: 2em; /* Размер надписи */
+    padding: 10px; 
+}
+.class1 {
+	color: #0000FF;
+	background: #fc0; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px; 
+}
