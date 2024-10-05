@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Породы кошек</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="content">
+  <h1>Породы кошек</h1>
+  <p class="intro">Наиболее популярные породы <strong>кошек</strong> с кратким описанием. </p>
+  <div class="gallery">
+    <figure>
+       <img src="../images/siamskaya.jpg" alt="Сиамская кошка" width="500" height="500">
+      <figcaption>Сиамская кошка - одна из известных пород сиамо-ориентальной группы. Грациозное создание с узнаваемым окрасом и пронзительными голубыми глазами.</figcaption>
+    </figure>
+    <figure>
+       <img src="../images/britanskaya.jpg" alt="Британская короткошёрстная кошка" width="500" height="500">
+      <figcaption>Британская короткошёрстная кошка - крупная порода, имеющая массивное, коренастое телосложение.</figcaption>
+    </figure>
+    <figure>
+       <img src="../images/meyn_kun.jpg" alt="Мейн-кун" width="500" height="500">
+      <figcaption>Мейн-кун - порода кошек, которая произошла от кошек штата Мэн на северо-востоке США. Аборигенная порода кошек Северной Америки.</figcaption>
+    </figure>
+    <figure>
+       <img src="../images/persid.jpg" alt="Персидская кошка" width="500" height="500">
+      <figcaption>Персидская кошка — порода длинношёрстных кошек, одна из старейших и самых популярных в мире. </figcaption>
+    </figure>
+    <figure>
+       <img src="../images/sfinks.jpg" alt="Сфинкс" width="500" height="500">
+      <figcaption>Канадский сфинкс - уникальная порода кошек, которая зачастую ассоциируется с отсутствием шерсти и своим особым внешним видом. </figcaption>
+    </figure>
+    <figure>
+       <img src="../images/shotland.jpg" alt="Шотландская вислоухая кошка" width="500" height="500">
+      <figcaption>Шотландская вислоухая кошка или скоттиш-фолд — порода домашних кошек с характерными загнутыми вперёд и вниз ушами, что вызвано действием доминантного гена, который возник в результате естественной мутации и оказывающий влияние на хрящи во всём организме. </figcaption>
+    </figure>
+  </div>
+
+  <p class="copyright">Собственность 2015, CosmoFarmer.com </p>
+</div>
+</body>
+</html>
