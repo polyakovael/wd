@@ -1,0 +1,77 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+
+/* конец кода сброса стилей браузера */
+
+body {
+	width: 760px;
+	margin: 0 auto;	
+	background-color: #F2A8FC;
+}
+
+h1 {
+	font: normal 2.7em Baskerville, "Palatino Linotype", "Times New Roman", serif;
+	color: #9220A2;
+	background: url(../images/underline.png) no-repeat 0px 88%;
+	padding-left: 6px;
+}
+
+/* пользовательские стили  */
+.inventory {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 90%;
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+.inventory caption {
+	text-align: right;
+	font-size: .85em;
+	margin-bottom: 10px;
+	color: #9220A2;
+}
+.inventory th, .inventory td {
+	font-size: 1.3em;
+	border: 3px solid #A42051;
+	padding: 5px 7px 2px 7px;
+}
+.inventory th {
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	background: rgb(229,76,16);
+	background: linear-gradient(to bottom, rgb(163,8,8), rgb(242,73,200));
+	color: white;
+}
+.inventory tr:nth-of-type(even) {
+	background-color: #B166BB;
+}
+.inventory tr:nth-of-type(odd) {
+	background-color: rgba(229,76,16,.1);
+}
+#price, #rating {
+	width: 20%;
+}
